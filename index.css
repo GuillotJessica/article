@@ -1,0 +1,46 @@
+body
+{
+margin: 0;
+box-sizing: border-box;
+}
+img
+{
+  width: 30%;
+  position:relative;
+  margin-right: 2%;
+  margin-bottom: 2%;
+
+}
+a
+{
+ top: 0px;
+ right: 0px;
+ position: absolute;
+}
+article
+{
+  width: 40%;
+  float:left;
+  border: 1px solid #aaa;
+  position: relative;
+  padding: 2%;
+  margin-bottom: 2%;
+  margin: auto;
+  text-align: justify;
+}
+.suite{
+  display: block;
+  text-align: center;
+}
+.suite:hover
+{
+transform: scale(3);
+}
+
+#texte a{
+  display: none;
+}
+#texte {
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
